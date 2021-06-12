@@ -20,7 +20,11 @@ function timer(){
     } else if(m.value != 0 && s.value == 0){
         s.value = 59;
         m.value--;
+    } else if(h.value != 0 && m.value == 0){
+        m.value = 60;
+        h.value--;
     }
+    return;
 
 }
 
