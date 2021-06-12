@@ -1,0 +1,43 @@
+html {
+    background-image: url('pictures/welcome.png');
+    height: 50%;
+	position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #DDC39C;
+
+}
+
+.btn {
+	align-self: center;
+
+	width: 25%;
+	height: 25%;
+
+	font-size: 30px;
+
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+    outline: none;
+}
+
+#tabby {
+    background-image: url('pictures/tabby.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 60%;
+	top: 25%;
+}
+
+#fluffy {
+    background-image: url('pictures/fluffy.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 60%;
+	top: 25%;
+}
