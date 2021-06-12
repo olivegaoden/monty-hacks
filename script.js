@@ -23,7 +23,6 @@ function timer(){
     } else if(h.value != 0 && m.value == 0){
         m.value = 60;
         h.value--;
-    }
     return;
 
 }
