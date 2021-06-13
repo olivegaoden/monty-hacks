@@ -11,10 +11,16 @@ var s = document.getElementById('sec');
 var startTimer = null;
 
 function timer(){
-    if(h.value == 0 && m.value == 0 && s.value == 0){
+    if(h.value == 0 && m.value == 0 && s.value == 0) {
         h.value = 0;
         m.value = 0;
         s.value = 0;
+    } else if(m.value > 60) {
+        m.value = m.value - 60;
+        h.value++;
+    } else if (s.value > 60){
+        s.value = s.value - 60;
+        m.value++;
     } else if(s.value != 0){
         s.value--;
     } else if(m.value != 0 && s.value == 0){
@@ -27,7 +33,6 @@ function timer(){
         window.location.href = "https://google.com";
     }
     return;
-
 }
 
 function stopTimer()

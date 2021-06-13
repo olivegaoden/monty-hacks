@@ -2,13 +2,13 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width-device-width, initial-scale-1.0">
 	<link rel = "stylesheet" href = "./style.css">
 	<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Permanent+Marker">
-	<title></title>
+	<title>Nala</title>
 </head>
 
 <body>
+	<img id="logo" src="pictures/nala.png" alt="Nala logo">
 	<div id="container">
 		<p id="hour-label" class="label">Hours</p><p id="min-label" class="label">Minutes</p><p id="sec-label" class="label">Seconds</p>
 		<input id="hour" type="number" max="99" min="0" value="0" class="time"><p id="p1" class="semicolon">:</p><input id="minute" type="number" max="60" min="0" value="0" class="time"><p id="p2" class="semicolon">:</p><input id="sec" type="number" max="60" min="0" value="0" class="time">
@@ -18,12 +18,15 @@
 	<button id="reset" class="btn"></button>
 
 	<script src="script.js"></script>
-	<div class = "splash">
-		<div id = "centerpiece">
-		</div>
-		<div>
-		</div>
-	</div>
+	<script>
+		document.addEventListener("visibilitychange", function() {
+		console.log(document.visibilityState);
+		if (document.hidden == true)
+		{
+			console.log(document.visibilityState);
+		}
+		});
+	</script>
 
 	</div>
 </body>

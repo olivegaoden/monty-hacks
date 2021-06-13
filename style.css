@@ -125,3 +125,11 @@ h1 {
 	font-size: 50pt;
 	font-style: normal;
 }
+
+#logo {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+}

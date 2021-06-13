@@ -29,3 +29,11 @@ html {
 	right: 15%;
 	top: 70%;
 }
+
+#logo {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+}
