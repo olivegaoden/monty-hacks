@@ -1,95 +1,16 @@
 html {
-	background-color: #C3A87F;
-	background-image: url('pictures/timer.png');
-	height: 50%;
-	position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-#container {
-	position: relative;
-	top: 120%;
-	height: 200px;
-	width: 700px;
-	background-color: #C3A87F;
-	margin: 0 auto;
-
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-}
-
-.label {
-	margin: 0;
-
-	justify-self: center;
-	align-self: center;
-	font-size: 30px;
-	font-family: permanent marker;
-	color: #6E5939;
-}
-
-#hour-label
-{
-	grid-area: 1 / 2 / 1 / 3;
-}
-
-#min-label {
-	grid-area: 1 / 3 / 1 / 4;
-}
-
-#sec-label {
-	grid-area: 1 / 4 / 1 / 5;
-}
-
-.time {
-	justify-self: center;
-	align-self: center;
-
-	border: none;
-	background-color: #ffffff00;
-	font-family: permanent marker;
-	font-size: 50px;
-	width: 70px;
-	height: 50px;
-	color: #6E5939;
-}
-
-#hour {
-	grid-area: 2 / 2 / 2 / 3;
-}
-
-.semicolon {
-	justify-self: center;
-	align-self: center;
-
-	font-family: permanent marker;
-	font-size: 30px;
-	margin: 0;
-	color: #6E5939;
-}
-
-#p1 {
-	grid-area: 2 / 2 / 2 / 4;
-}
-
-#minute {
-	grid-area: 2 / 3 / 2 / 4;
-}
-
-#p2 {
-	grid-area: 2 / 3 / 2 / 5;
-}
-
-#sec {
-	grid-area: 2 / 4 / 2 / 5;
+	background-image: url('pictures/welcome.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #DDC39C;
 }
 
 .btn {
 	align-self: center;
 
-	width: 140px;
-	height: 80px;
+	width: 200px;
+	height: 200px;
 
 	font-size: 30px;
 
@@ -98,32 +19,25 @@ html {
 	border: none;
 	cursor: pointer;
 	overflow: hidden;
-	outline: none;
+    outline: none;
 }
 
-#start {
-	background-image: url('pictures/Start.png');
-	background-repeat: no-repeat;
+#tabby {
+    background-image: url('pictures/tabby.png');
+    background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
-	right: 60%;
-	top: 85%;
+	right: 55%;
+	top: 40%;
 }
 
-#reset {
-	background-image: url('pictures/Reset.png');
-	background-repeat: no-repeat;
+#fluffy {
+    background-image: url('pictures/fluffy.png');
+    background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
-	left: 60%;
-	top: 85%;
-}
-
-h1 {
-	font-family: Permanent marker;
-	font-weight: 300;
-	font-size: 50pt;
-	font-style: normal;
+	left: 55%;
+	top: 40%;
 }
 
 #logo {
