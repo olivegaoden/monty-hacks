@@ -44,10 +44,18 @@ html {
 }
 
 #clickme {
-	margin-left: 15%;
-	background-color: #7c8c73;
-	color: #F2E1C6;
-	border-color: #F2E1C6;
+	background-image: url('pictures/Reveal.png');
 	font-size: 30px;
-	font-family: permanent marker;
+	align-self: center;
+	
+
+    width: 350px;
+    height: 100px;
+
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+    outline: none;
 }
