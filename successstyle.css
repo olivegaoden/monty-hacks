@@ -1,9 +1,14 @@
 html {
 	/*
-	var rewards = ["'pictures/Sushi.png'","'pictures/Collar.png'","'pictures/bed.png'","'pictures/fountain.png'","'pictures/mouse.png'","'pictures/tower.png'"];
-	var i = Math.random()*6;
+	var rewards = ["pictures/Sushi.png","pictures/Collar.png","pictures/bed.png","pictures/fountain.png","pictures/mouse.png","pictures/tower.png"];
+	var i = Math.floor(Math.random() * 6);
+	var bg = 'url(' + rewards[i] + ')';
+	$('body').css({'background':bg, 'background-size':'cover', });
+
+});
 	*/
-	background-image: url('pictures/tower.png');
+	/*background-image: url(rewards[i]);*/
+	background-image: url('pictures/Sushi.png');
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
