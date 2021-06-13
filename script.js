@@ -15,13 +15,16 @@ function timer(){
         h.value = 0;
         m.value = 0;
         s.value = 0;
+    } else if(h.value==0 && m.value==0 && s.value==1){
+        //s.value = 30;
+        window.location.replace("http://www.w3schools.com");
     } else if(m.value > 60) {
         m.value = m.value - 60;
         h.value++;
     } else if (s.value > 60){
         s.value = s.value - 60;
         m.value++;
-    } else if(s.value != 0){
+    } else if(s.value != 1){
         s.value--;
     } else if(m.value != 0 && s.value == 0){
         s.value = 59;
@@ -29,10 +32,6 @@ function timer(){
     } else if(h.value != 0 && m.value == 0){
         m.value = 60;
         h.value--;
-    } else if(h.value == 0 && m.value == 0 && s.value == 1) {
-        {
-            
-        }
     }
     return;
 }
