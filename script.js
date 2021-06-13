@@ -10,8 +10,6 @@ var s = document.getElementById('sec');
 //store a reference to the variable
 var startTimer = null;
 
-window.location.replace("http://www.w3schools.com");
-
 function timer(){
     if(h.value == 0 && m.value == 0 && s.value == 0) {
         h.value = 0;
