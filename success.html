@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./successstyle.css">
+    <title>Nala</title>
+</head>
+<body>
+    
+    <a href="index.html"><button id="success" class="btn"></button></a>
+    <script>
+        var image_array = new Array(6);
+        image_array[0] = new Image();
+        image_array[0].src = "pictures/Bed.png";
+
+        image_array[1] = new Image();
+        image_array[1].src = "pictures/Collar.png";
+
+        image_array[2] = new Image();
+        image_array[2].src = "pictures/fountain.png";
+
+        image_array[3] = new Image();
+        image_array[3].src = "pictures/Mouse.png";
+
+        image_array[4] = new Image();
+        image_array[4].src = "pictures/Sushi.png";
+
+        image_array[5] = new Image();
+        image_array[5].src = "pictures/tower.png";
+        
+        function get_random_image() {
+            random_index = Math.floor(Math.random() * image_array.length);
+            selected_image = image_array[random_index]
+            document.getElementById('html').src = './pictures/${selected_image}'
+        }
+
+        window.onload = function() {
+            get_random_image();
+        };
+    </script>
+</body>
+</html>

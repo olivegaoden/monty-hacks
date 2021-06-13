@@ -23,6 +23,8 @@ function timer(){
     } else if(h.value != 0 && m.value == 0){
         m.value = 60;
         h.value--;
+    } else if(h.value == 0 && m.value == 0 && s.value == 1) {
+        window.location.href = "https://google.com";
     }
     return;
 
