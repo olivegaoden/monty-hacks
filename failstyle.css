@@ -36,4 +36,7 @@ html {
 	position: absolute;
 	left: 25px;
 	bottom: 25px;
+	background-image: url('pictures/nala.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
