@@ -17,7 +17,7 @@ function timer(){
         s.value = 0;
     } else if(h.value==0 && m.value==0 && s.value==1){
         //s.value = 30;
-        window.location.replace("http://www.w3schools.com");
+        window.location.replace("success.html");
     } else if(m.value > 60) {
         m.value = m.value - 60;
         h.value++;
