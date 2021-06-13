@@ -1,4 +1,10 @@
 html {
+	background-image: url('pictures/congratulations.jpeg');
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
     background-color: #9A8462;
 }
 
