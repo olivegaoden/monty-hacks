@@ -1,11 +1,19 @@
 html {
 	background-color: #C3A87F;
-	background-image: url('pictures/timer.png');
 	height: 50%;
 	position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+#image {
+	position: relative;
+	top: -150px;
+	width: 75%;
+	padding-left: 12.5%;
+	z-index: -1;
+}
+
 #container {
 	position: relative;
 	top: 120%;
@@ -13,6 +21,7 @@ html {
 	width: 700px;
 	background-color: #C3A87F;
 	margin: 0 auto;
+	z-index: 2;
 
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
