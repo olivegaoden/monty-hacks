@@ -30,7 +30,7 @@ function timer(){
         m.value = 60;
         h.value--;
     } else if(h.value == 0 && m.value == 0 && s.value == 1) {
-        window.location.href = "https://google.com";
+        <meta http-equiv="Refresh" content="0; url='https://www.w3docs.com'" />
     }
     return;
 }
