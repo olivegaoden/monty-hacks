@@ -1,5 +1,7 @@
 html {
-	background-image: url('pictures/Sushi.png');
+	var rewards = ["'pictures/Sushi.png'","'pictures/Collar.png'","'pictures/bed.png'","'pictures/fountain.png'","'pictures/mouse.png'","'pictures/tower.png'"];
+	var i = Math.random()*6;
+	background-image: url(rewards[i]);
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
