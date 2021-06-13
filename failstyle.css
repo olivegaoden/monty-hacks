@@ -1,15 +1,9 @@
 html {
+	background-image: url("Fail.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-color: #B48C95;
-}
-
-#image {
-	position: relative;
-	width: 75%;
-	padding-left: 12.5%;
-	z-index: -1;
 }
 
 .btn {
