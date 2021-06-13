@@ -36,7 +36,6 @@ function stopTimer()
 
 
 start.addEventListener('click', function(){
-    // Initialize the variable startTimer
     function startInterval(){
         startTimer = setInterval(function() {
             timer();
