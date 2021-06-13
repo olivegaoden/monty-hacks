@@ -1,13 +1,4 @@
 html {
-	/*
-	var rewards = ["pictures/Sushi.png","pictures/Collar.png","pictures/bed.png","pictures/fountain.png","pictures/mouse.png","pictures/tower.png"];
-	var i = Math.floor(Math.random() * 6);
-	var bg = 'url(' + rewards[i] + ')';
-	$('body').css({'background':bg, 'background-size':'cover', });
-
-});
-	*/
-	/*background-image: url(rewards[i]);*/
 	background-image: url('pictures/Sushi.png');
 	width: 75%;
 	margin-left: auto;
@@ -46,4 +37,18 @@ html {
 	position: absolute;
 	left: 25px;
 	bottom: 25px;
+}
+
+#image {
+	width: 75%;
+	padding-left: 12%;
+}
+
+#clickme {
+	margin-left: 15%;
+	background-color: #7c8c73;
+	color: #F2E1C6;
+	border-color: #F2E1C6;
+	font-size: 30px;
+	font-family: permanent marker;
 }
