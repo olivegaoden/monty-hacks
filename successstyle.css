@@ -1,9 +1,5 @@
 html {
-    background-image: url('pictures/Fail.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: #B48C95;
+    background-color: #9A8462;
 }
 
 .btn {
@@ -20,9 +16,8 @@ html {
     outline: none;
 }
 
-#fail {
-    background-image: url('pictures/back\ to\ timer.png');
-
+#success {
+    background-image: url('pictures/back\ to\ timer\ 2.png');
     background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;

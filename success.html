@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./successstyle.css">
+    <title>Nala</title>
+    <script>
+       let success = [];
+       let numSuccess = 6;
+
+       function preload() {
+           let success1 = loadImage('pictures/Bed.png');
+           let success2 = loadImage('pictures/Collar.png');
+           let success3 = loadImage('pictures/fountain.png');
+           let success4 = loadImage('pictures/Mouse.png');
+           let success5 = loadImage('pictures/Sushi.png');
+           let success6 = loadImage('pictures/Tower.png');
+           success = [success1, success2, success4, success4, success5, success6];
+       }
+
+       function setup() {
+           create
+       }
+    </script>
+</head>
+<body>
+    <img id="logo" src="pictures/nala.png" alt="Nala logo">
+    <a href="index.html"><button id="success" class="btn"></button></a>
+    <script type="text/javascript">
+        randomImg();
+    </script>
+</body>
+</html>
