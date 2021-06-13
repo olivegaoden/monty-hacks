@@ -30,7 +30,8 @@ function timer(){
         m.value = 60;
         h.value--;
     } else if(h.value == 0 && m.value == 0 && s.value == 1) {
-        <meta http-equiv="Refresh" content="0; url='https://www.w3docs.com'" />
+        //implementation
+        window.location.replace("http://www.w3schools.com");
     }
     return;
 }
