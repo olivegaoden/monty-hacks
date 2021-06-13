@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel = "stylesheet" href = "./timerstyle.css">
-    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Permanent+Marker">
-    <title>Nala</title>
-</head>
-<body>
-    <img id="logo" src="pictures/nala.png" alt="Nala logo">
-    <a href="index.html"><button id="tabby" class="btn"></button></a>
-	<a href="index.html"><button id="fluffy" class="btn"></button></a>
-</body>
-</html>
-
 <html>
 
 <head>
@@ -21,3 +6,32 @@
 	<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Permanent+Marker">
 	<title>Nala</title>
 </head>
+
+<body>
+	<img id="logo" src="pictures/nala.png" alt="Nala logo">
+	<div id="container">
+		<p id="hour-label" class="label">Hours</p><p id="min-label" class="label">Minutes</p><p id="sec-label" class="label">Seconds</p>
+		<input id="hour" type="number" max="99" min="0" value="0" class="time"><p id="p1" class="semicolon">:</p><input id="minute" type="number" max="60" min="0" value="0" class="time"><p id="p2" class="semicolon">:</p><input id="sec" type="number" max="60" min="0" value="0" class="time">
+	</div>
+
+	<button id="start" class="btn"></button>
+	<button id="reset" class="btn"></button>
+
+	<script src="script.js"></script>
+	<script>
+		document.addEventListener("visibilitychange", function() {
+		console.log(document.visibilityState);
+		if (document.hidden == true)
+		{
+			console.log(document.visibilityState);
+			window.location.replace("fail.html");
+		}
+		});
+	</script>
+
+	</div>
+</body>
+	
+</script>
+
+</html>
