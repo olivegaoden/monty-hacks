@@ -1,17 +1,16 @@
 html {
     background-image: url('pictures/welcome.png');
-	position: center;
-	background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-color: #DDC39C;
-
 }
 
 .btn {
 	align-self: center;
 
-	width: 20%;
-	height: 15%;
+	width: 200px;
+	height: 200px;
 
 	font-size: 30px;
 
@@ -28,8 +27,8 @@ html {
     background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
-	right: 70%;
-	top: 25%;
+	right: 55%;
+	top: 40%;
 }
 
 #fluffy {
@@ -37,6 +36,6 @@ html {
     background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
-	left: 70%;
-	top: 25%;
+	left: 55%;
+	top: 40%;
 }

@@ -23,6 +23,7 @@ function timer(){
     } else if(h.value != 0 && m.value == 0){
         m.value = 60;
         h.value--;
+    }
     return;
 
 }
@@ -35,7 +36,6 @@ function stopTimer()
 
 
 start.addEventListener('click', function(){
-    // Initialize the variable startTimer
     function startInterval(){
         startTimer = setInterval(function() {
             timer();
