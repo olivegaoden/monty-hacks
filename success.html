@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <link rel = "stylesheet" href = "./successstyle.css">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Permanent+Marker">
     <title>Nala</title>
     <script>
-       var 
+    function change() {
+      document.getElementById("clickme").disabled = true;
+      var images = ['pictures/Bed.png', 'pictures/Collar.png', 'pictures/fountain.png', 'pictures/Mouse.png', 'pictures/Sushi.png', 'pictures/tower.png']
+      var img = document.getElementById("image");
+      img.src = images[Math.floor(Math.random() * 6)];
+      return false;
+    }
     </script>
 </head>
+
 <body>
     <img id="logo" src="pictures/nala.png" alt="Nala logo">
     <a href="timer.html"><button id="success" class="btn"></button></a>
-    <script>
+    
+    <img src="pictures/congratulations.jpeg" id = "image" alt="congrats">
+    <button id="clickme" onclick="change();">Click to reveal your item!</button>
 
-
-    </script>
 </body>
 </html>

@@ -1,8 +1,4 @@
 html {
-	background-image: url('pictures/Sushi.png');
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
     background-color: #9A8462;
@@ -37,4 +33,18 @@ html {
 	position: absolute;
 	left: 25px;
 	bottom: 25px;
+}
+
+#image {
+	width: 75%;
+	padding-left: 12%;
+}
+
+#clickme {
+	margin-left: 15%;
+	background-color: #7c8c73;
+	color: #F2E1C6;
+	border-color: #F2E1C6;
+	font-size: 30px;
+	font-family: permanent marker;
 }
