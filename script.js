@@ -31,6 +31,7 @@ function timer(){
         h.value--;
     } else if(h.value == 0 && m.value == 0 && s.value == 1) {
         //implementation
+        s.value = 60;
         window.location.replace("http://www.w3schools.com");
     }
     return;
