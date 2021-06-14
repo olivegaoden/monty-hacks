@@ -23,7 +23,7 @@ html {
 }
 
 #tabby {
-    background-image: url('pictures/tabby.png');
+    background-image: url('pictures/Tabby.png');
     background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
@@ -31,8 +31,16 @@ html {
 	top: 40%;
 }
 
+#black {
+	background-image: url('pictures/Black.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 55%;
+	top: 40%;
+}
 #fluffy {
-    background-image: url('pictures/fluffy.png');
+    background-image: url('pictures/Fluffy.png');
     background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
