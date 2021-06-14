@@ -98,13 +98,9 @@ html {
 .btn {
 	background-image: url('pictures/timer.png');
 	align-self: center;
-	height: 50%;
-	position: center;
 	
-	/*
 	width: 140px;
 	height: 80px;
-	*/
 	
 	font-size: 30px;
 
