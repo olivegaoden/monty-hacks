@@ -31,14 +31,6 @@ html {
 	top: 40%;
 }
 
-#black {
-	background-image: url('pictures/Black.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: absolute;
-	right: 55%;
-	top: 40%;
-}
 #fluffy {
     background-image: url('pictures/Fluffy.png');
     background-repeat: no-repeat;
