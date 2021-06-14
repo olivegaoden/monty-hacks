@@ -112,7 +112,7 @@ html {
 }
 
 #start {
-	background-image: url('pictures/Start.png');
+	background-image: url('pictures/start.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
@@ -121,7 +121,7 @@ html {
 }
 
 #reset {
-	background-image: url('pictures/Reset.png');
+	background-image: url('pictures/reset.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
